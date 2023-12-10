@@ -1,0 +1,22 @@
+.card-profile {
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the card-profile horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-profile h2 {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    color: #023296;
+}
+
+.card-profile form {
+    margin-bottom: 1rem;
+}
+
+.card-profile .text-center {
+    margin-top: 2rem;
+}

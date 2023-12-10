@@ -1,0 +1,50 @@
+.card-edit {
+    width: 400px; /* Increased width */
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-edit h2 {
+    text-align: center;
+    color: #023296;
+}
+
+.card-edit form {
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+}
+
+.card-edit label {
+    margin-bottom: 10px;
+}
+
+.card-edit input,
+.card-edit textarea,
+.card-edit button {
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 16px); /* Set width to 100% minus padding */
+}
+
+.card-edit textarea {
+    resize: vertical; /* Allow vertical resizing for textarea */
+}
+
+.card-edit button {
+    background-color: #023296;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.card-edit button:hover {
+    background-color: #0249cc;
+}

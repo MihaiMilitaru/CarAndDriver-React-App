@@ -1,0 +1,74 @@
+.custom-card {
+    width: 550px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card h2 {
+    text-align: center;
+    color: #023296;
+}
+
+.custom-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-card label {
+    margin-bottom: 10px;
+}
+
+.custom-card input,
+.custom-card textarea,
+.custom-card button,
+.custom-card a {
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 16px);
+}
+
+.custom-card textarea {
+    resize: vertical;
+}
+
+
+.custom-card a {
+    background-color: #023296;
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-align: center; /* Center text within the button/link */
+    text-decoration: none; /* Remove underline from link */
+    width: 100%; /* Full width */
+}
+
+.custom-card button{
+    background-color: #d01e1e;
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-align: center; /* Center text within the button/link */
+    text-decoration: none; /* Remove underline from link */
+    width: 100%; /* Full width */
+}
+
+.custom-card button:hover{
+    background-color: #ff5656;
+    text-decoration: none;
+    color: white;
+}
+
+.custom-card a:hover{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.text_profile{
+    font-size: 1.8rem;
+}
