@@ -30,9 +30,6 @@ export default function Profile() {
                 <br></br>
                 <strong>Username:</strong> {currentUser.displayName}
                 <br></br>
-                <Link to="/update-profile" className="btn btn-primary w-100 mt-3">
-                    Update Profile
-                </Link>
 
                 <Button variant="link" onClick={handleLogout}>
                     Log Out

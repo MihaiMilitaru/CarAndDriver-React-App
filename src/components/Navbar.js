@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter, Switch, Route, useHistory} from 'react-router-dom';
+import {useHistory} from 'react-router-dom';
 import { useState } from 'react';
 import {useAuth} from "../contexts/AuthContext";
 import './Navbar.css';
